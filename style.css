@@ -1,0 +1,16 @@
+.mainpagetitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+}
+
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(74, 165, 201);
+    color: antiquewhite;
+    font-weight: 300;
+
+}
+
+.strong{
+    color: green;
+}
