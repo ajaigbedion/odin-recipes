@@ -1,6 +1,113 @@
+/* ====== Box Model ====== //
+    //
+    //margin: 0;
+    //padding: 0;
+    //box-sizing: border-box;
+    //border: 2px solid blue;
+
+    * {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c2a3d1;
+}
+
+img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: darkred;
+}
+
+.recipe-card {
+    width: 400px;
+    text-align: center;
+    background-color: #FFFAFA;
+    border: 2px solid yellow;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
+}
+
+.recipe-content {
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.recipe-card h2,
+.recipe-card a {
+    text-transform: uppercase;
+}
+
+.recipe-card.feature {
+    border: 2px solid darkred;
+}
+
+ul li h2 {
+    font-size: 16px;
+}
+
+.recipe-card a {
+    background-color: #fc9400;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 12px 10px 12px;
+}
+
+.recipe-card p {
+    padding-bottom: 20px;
+}
+*/
+
+*{
+    line-height: 2;
+    outline: 2px dotted blue;
+}
+
+.title{
+    background: #e3f4ff;
+    padding: 8px 8px 8px 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body {
+    background: #fff;
+    font-family: sans-serif;
+}
+
+
+img{
+    display: block;
+    margin: 0 auto;
+    height: 40%;
+    width: 40%;
+    background: #e3f4ff;
+    padding: 8px 8px 8px 8px;
+}
+
+.title, h1, h3, .description, .initiate {
+    text-align:center;}
+
+.card{
+    width: 800px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 8px 8px 8px 8px;
+}
+
 .mainpagetitle{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aqua;
+    background: #e3f4ff;
 }
 
 .description{
@@ -8,7 +115,24 @@
     background-color: rgb(74, 165, 201);
     color: antiquewhite;
     font-weight: 300;
+    padding: 8px 8px 8px 8px;
+    margin: 16px auto;
 
+}
+
+.contents{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e3f4ff;
+    padding: 8px 8px 8px 8px;
+    margin: 16px auto;
+
+}
+
+.returnButton{
+    background: #e3f4ff;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin: auto;
 }
 
 .strong{
